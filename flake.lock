@@ -1,0 +1,83 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "material-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697918349,
+        "narHash": "sha256-WDl7xMz4ICiDPrvotunDT4NVZmg+XAizFSTG/PrO0jo=",
+        "owner": "marko-cerovac",
+        "repo": "material.nvim",
+        "rev": "5485e2e91b4117d9a4977c4afb6d70504559e1ac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "marko-cerovac",
+        "repo": "material.nvim",
+        "type": "github"
+      }
+    },
+    "neovim": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "dir": "contrib",
+        "lastModified": 1696883897,
+        "narHash": "sha256-Lyo98cAs7Zhx23N4s4f3zpWFKYJMmXleWpt3wiVDQZo=",
+        "owner": "neovim",
+        "repo": "neovim",
+        "rev": "d772f697a281ce9c58bf933997b87c7f27428a60",
+        "type": "github"
+      },
+      "original": {
+        "dir": "contrib",
+        "owner": "neovim",
+        "ref": "stable",
+        "repo": "neovim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1698030473,
+        "narHash": "sha256-v/e2xjvXHqv4o7ftdP6Mrw+0m1fWSsq+03g8kNkW0mc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "070b5326de4c9b6e7a27fadc03513527a76fa6d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "material-src": "material-src",
+        "neovim": "neovim",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

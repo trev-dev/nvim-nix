@@ -1,0 +1,48 @@
+{ pkgs }:
+let
+  treesitter-langs = import ./tree-sitter.nix { inherit pkgs; };
+in with pkgs.vimPlugins; [
+  emmet-vim
+  gitsigns-nvim
+  hop-nvim
+  indent-blankline-nvim
+  nvim-lspconfig
+  lsp_signature-nvim
+  lualine-nvim
+  material
+  mkdnflow-nvim
+  nvim-autopairs
+  cmp-dap
+  nvim-cmp
+  nvim-colorizer-lua
+  cmp-cmdline
+  luasnip
+  nvim-dap
+  nvim-dap-ui
+  cmp_luasnip
+  cmp-path
+  cmp-nvim-lsp
+  cmp-buffer
+  nvim-jdtls
+  nvim-treesitter-context
+  nvim-web-devicons
+  oil-nvim
+  telescope-nvim
+  telescope-ui-select-nvim
+  todo-comments-nvim
+  toggleterm-nvim
+  treesitter-langs
+  vim-argwrap
+  vim-commentary
+  vim-dadbod
+  vim-dadbod-ui
+  vim-fugitive
+  vim-gnupg
+  vim-ledger
+  vim-obsession
+  vim-repeat
+  vim-rhubarb
+  vim-surround
+  which-key-nvim
+  zk-nvim
+]
