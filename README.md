@@ -13,7 +13,7 @@ See [PrimaMateria's Blog](https://primamateria.github.io/blog/neovim-nix/)
 - Built-in LSP support for Java (JDTLS), JavaScript/TypeScript, HTML/CSS, Vue3
   and [some other stuff](./runtimeDeps.nix), too.
 - Debug adapter support for Java
-- Built-in tree-sitter [parsers](./tree-sitter.nix) and [configs](./config/package/treesitter.lua) for numerous languages.
+- Built-in tree-sitter [parsers](./tree-sitter.nix) for numerous languages.
 - Rich Markdown editing, powered by tree-sitter, [Mkdnflow](https://github.com/jakewvincent/mkdnflow.nvim) and [ZK](https://github.com/mickael-menu/zk)
 
 ## Usage
