@@ -1,5 +1,8 @@
 # A Neovim Flake
 
+*NOTE:* This is a mirror and may be out of date.  I suggest you check out
+[sourcehut](https://git.sr.ht/~trevdev/nvim-nix)
+
 A super simple Nix flake for a highly reproducible Neovim.  The goal of this
 configuration is to be able to have a consistent, stable Neovim configuration
 that will always have its [dependencies satisfied](https://github.com/wbthomason/packer.nvim/issues/1229).
